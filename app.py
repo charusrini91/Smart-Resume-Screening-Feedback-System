@@ -1,6 +1,6 @@
 import streamlit as st
 st.set_page_config(page_title="Agentic Resume Analyzer", layout="centered")
-from resume_parse import extract_text_from_pdf
+from resume_parser import extract_text_from_pdf
 from skill_extract import  get_resume_details,compare_resume_with_jd,get_final_score_and_suggestions
 from llm import analyze_with_llm
 
